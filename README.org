@@ -1,6 +1,6 @@
 Converts the last X translations to their stroke form, depending on how many times you invoke it.
 
-For example, if you define a stroke for =STR*L= as =\=retro_stroke=, you can type:
+For example, if you define a stroke for =STR*L= as ==retro_stroke=, you can type:
 
 #+begin_example
 Strokes:     EU AEUT AEU KAR ROT TP-PL STR*L
