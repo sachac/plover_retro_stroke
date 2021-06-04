@@ -22,3 +22,9 @@ git clone https://github.com/sachac/plover_retro_stroke
 cd plover_retro_stroke
 plover -s plover_plugins install -e .
 #+end_example
+
+or
+
+#+begin_example
+plover -s plover_plugins install git+https://github.com/sachac/plover_retro_stroke.git
+#+end_example
