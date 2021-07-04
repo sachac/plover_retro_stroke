@@ -9,9 +9,9 @@ def flatten(x: List[List]) -> List:
 
 def retro_stroke(translator: Translator, stroke: Stroke, cmdline: str):
     args = cmdline.split(",")
-    separator = args[0] or " "
-    before = args[1] or ""
-    after = args[2] or ""
+    separator = args[0] if len(args) > 0 else " "
+    before = args[1] if len(args) > 1 else ""
+    after = args[2] if len(args) > 2 else ""
 
     all_translations = translator.get_state().translations
     affected_translation_cnt = len(list(
