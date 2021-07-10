@@ -15,6 +15,23 @@ Translation: I ate AEU KAR ROT TP-PL
 
 and so on.
 
+You can specify the stroke separator and text to go before and after with the syntax =retro_stroke:separator,before,after.
+
+By default the separator is a space and the before and after text is empty.
+
+If you define a stroke as =retro_stroke:/, `,`
+
+#+begin_example
+Strokes:     EU AEUT AEU KAR ROT TP-PL STR*L
+Translation: I ate a carrot `TP-PL`
+
+Strokes:     EU AEUT AEU KAR ROT TP-PL STR*L STR*L
+Translation: I ate a `KAR/ROT/TP-PL`
+
+Strokes:     EU AEUT AEU KAR ROT TP-PL STR*L STR*L STR*L
+Translation: I ate `AEU/KAR/ROT/TP-PL`
+#+end_example
+
 You can install this plugin from the command-line with:
 
 #+begin_example
